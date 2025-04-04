@@ -65,10 +65,30 @@ body {
 
     }
 
-    ul{
+    ul, ol{
         padding-left: 20px;
         li{
             margin-bottom: 10px;
+            color: #854632;
+            border-collapse: collapse;
+            span{
+                color: black;
+            }
+        }
+    }
+   
+    
+    table{
+        
+        margin-top: 10px;
+        width: 100%;
+        tr{
+            td{
+                width: 50%;
+                height: 50px;
+                border-bottom: 1px solid salmon;
+
+            }
         }
     }
 }
